@@ -26,6 +26,16 @@ class Framework
 
     // 初始化方法
     private static function init() {
+        // 路径的常量  getcwd()函数：获取当前目录
+        define('DS', DIRECTORY_SEPARATOR);
+        define('ROOT', getcwd() . '/');
+    }
+    // 路由分发
+    private static function dispatch() {
+
+    }
+    // 自动载入
+    private static function autoload() {
 
     }
 }
