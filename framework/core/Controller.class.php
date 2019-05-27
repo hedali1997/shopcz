@@ -17,4 +17,13 @@ class Controller {
         // 一定要退出
         exit;
     }
+
+    // 加载工具类
+    public function library($lib) {
+        include LIB_PATH . "{$lib}.class.php";
+    }
+    // 加载辅助函数文件
+    public function helper($helper) {
+        include HELPER_PATH . "{$helper}.php";
+    }
 }

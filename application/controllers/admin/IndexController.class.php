@@ -33,4 +33,14 @@ class IndexController extends Controller
         var_dump($admins);
         include CUR_VIEW_PATH . 'main.html';
     }
+
+    // 生成验证码
+    public function codeAction() {
+        // 引入验证码类
+        $this->library('Captcha');
+        // 实例化对象
+        $captcha = new Captcha();
+        // 调用方法生成验证码
+        $captcha->generateCode();
+    }
 }
