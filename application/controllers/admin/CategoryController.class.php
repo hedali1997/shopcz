@@ -6,7 +6,7 @@
  * Time: 21:17
  */
 // 后台商品分类管理
-class CategoryController extends Controller
+class CategoryController extends BaseController
 {
     // 显示分类
     public function indexAction() {
@@ -48,7 +48,7 @@ class CategoryController extends Controller
     // 显示编辑分类页面
     public function editAction() {
         // 获取cat_id
-        $cat_id = $_GET['cat_id'] + 0;
+        $cat_id = $_GET['cat_id'] + 0;//隐式转换成整型确保安全
         $categoryModel = new CategoryModel('category');
         $cats = $categoryModel->getCats();
         $cat = $categoryModel->selectByPk($cat_id);
@@ -64,6 +64,12 @@ class CategoryController extends Controller
         $data['cat_desc'] = trim($_POST['cat_desc']);
         $data['is_show'] = $_POST['is_show'];
         $data['cat_id'] = $_POST['cat_id'];
+
+        // 实体转义
+        // 引入辅助函数
+        $this->helper('input');
+        $data = deepspecialchars($data);
+
         if ($data['cat_name'] === '') {
             $this->jump('index.php?p=admin&c=category&a=add', '分类名称不能为空');
         }

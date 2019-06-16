@@ -6,7 +6,7 @@
  * Time: 22:11
  */
 
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     public function indexAction() {
         // echo "admin...index";

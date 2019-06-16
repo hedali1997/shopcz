@@ -10,7 +10,7 @@ class Controller {
     // 提示信息并跳转
     public function jump($url, $message, $wait = 3) {
         if ($wait == 0) {
-            header('Location:$url');
+            header("Location:$url");
         } else {
             include CUR_VIEW_PATH . 'message.html';
         }

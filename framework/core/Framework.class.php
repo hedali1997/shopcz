@@ -58,6 +58,8 @@ class Framework
         // 载入配置文件
         $GLOBALS['config'] = include CONFIG_PATH . 'config.php';
 
+        // 开启session
+        session_start();
     }
     // 路由分发
     private static function dispatch() {
