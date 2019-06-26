@@ -1,0 +1,528 @@
+[2019-06-24 22:12:30]set names utf8
+[2019-06-24 22:12:30]DESC cz_admin
+[2019-06-24 22:12:30]select * from cz_admin where admin_name = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' limit 1
+[2019-06-24 22:12:30]set names utf8
+[2019-06-24 22:12:30]DESC cz_admin
+[2019-06-24 22:12:30]select * from cz_admin
+[2019-06-24 22:12:34]set names utf8
+[2019-06-24 22:12:34]DESC cz_goods_type
+[2019-06-24 22:12:34]SELECT * FROM cz_goods_type
+[2019-06-24 22:12:36]set names utf8
+[2019-06-24 22:12:36]DESC cz_goods_type
+[2019-06-24 22:12:36]SELECT * FROM cz_goods_type
+[2019-06-24 22:12:37]set names utf8
+[2019-06-24 22:12:37]DESC cz_goods_type
+[2019-06-24 22:12:37]SELECT * FROM cz_goods_type
+[2019-06-24 22:12:38]set names utf8
+[2019-06-24 22:12:38]DESC cz_goods_type
+[2019-06-24 22:12:38]SELECT * FROM cz_goods_type
+[2019-06-24 22:12:42]set names utf8
+[2019-06-24 22:12:42]DESC cz_category
+[2019-06-24 22:12:42]SELECT * FROM cz_category
+[2019-06-24 22:12:43]set names utf8
+[2019-06-24 22:12:43]DESC cz_goods_type
+[2019-06-24 22:12:43]SELECT * FROM cz_goods_type
+[2019-06-24 22:12:44]set names utf8
+[2019-06-24 22:12:44]DESC cz_goods_type
+[2019-06-24 22:12:44]SELECT * FROM cz_goods_type
+[2019-06-24 22:13:04]set names utf8
+[2019-06-24 22:13:04]DESC cz_goods_type
+[2019-06-24 22:13:04]SELECT * FROM cz_goods_type
+[2019-06-24 22:13:31]set names utf8
+[2019-06-24 22:13:31]DESC cz_admin
+[2019-06-24 22:13:31]select * from cz_admin
+[2019-06-24 22:17:52]set names utf8
+[2019-06-24 22:17:52]DESC cz_goods_type
+[2019-06-24 22:17:52]SELECT * FROM cz_goods_type
+[2019-06-24 22:18:01]set names utf8
+[2019-06-24 22:18:01]DESC cz_goods_type
+[2019-06-24 22:18:01]INSERT INTO `cz_goods_type` (`type_name`) VALUES ('书')
+[2019-06-24 22:18:02]set names utf8
+[2019-06-24 22:18:02]DESC cz_goods_type
+[2019-06-24 22:18:02]SELECT * FROM cz_goods_type
+[2019-06-24 22:18:10]set names utf8
+[2019-06-24 22:18:10]DESC cz_goods_type
+[2019-06-24 22:18:10]INSERT INTO `cz_goods_type` (`type_name`) VALUES ('电脑')
+[2019-06-24 22:18:11]set names utf8
+[2019-06-24 22:18:11]DESC cz_goods_type
+[2019-06-24 22:18:11]SELECT * FROM cz_goods_type
+[2019-06-24 22:18:17]set names utf8
+[2019-06-24 22:18:17]DESC cz_goods_type
+[2019-06-24 22:18:17]INSERT INTO `cz_goods_type` (`type_name`) VALUES ('手机')
+[2019-06-24 22:18:18]set names utf8
+[2019-06-24 22:18:18]DESC cz_goods_type
+[2019-06-24 22:18:18]SELECT * FROM cz_goods_type
+[2019-06-24 22:34:46]set names utf8
+[2019-06-24 22:34:46]DESC cz_admin
+[2019-06-24 22:34:46]select * from cz_admin
+[2019-06-24 22:34:49]set names utf8
+[2019-06-24 22:34:49]DESC cz_goods_type
+[2019-06-24 22:34:49]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:34:49]select count(*) from cz_goods_type
+[2019-06-24 22:34:52]set names utf8
+[2019-06-24 22:34:52]DESC cz_admin
+[2019-06-24 22:34:52]select * from cz_admin
+[2019-06-24 22:34:54]set names utf8
+[2019-06-24 22:34:54]DESC cz_goods_type
+[2019-06-24 22:34:54]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:34:54]select count(*) from cz_goods_type
+[2019-06-24 22:36:03]set names utf8
+[2019-06-24 22:36:03]DESC cz_goods_type
+[2019-06-24 22:36:03]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:03]select count(*) from cz_goods_type
+[2019-06-24 22:36:05]set names utf8
+[2019-06-24 22:36:05]DESC cz_goods_type
+[2019-06-24 22:36:05]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:05]select count(*) from cz_goods_type
+[2019-06-24 22:36:06]set names utf8
+[2019-06-24 22:36:06]DESC cz_goods_type
+[2019-06-24 22:36:06]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 2,2
+[2019-06-24 22:36:06]select count(*) from cz_goods_type
+[2019-06-24 22:36:08]set names utf8
+[2019-06-24 22:36:08]DESC cz_goods_type
+[2019-06-24 22:36:08]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:08]select count(*) from cz_goods_type
+[2019-06-24 22:36:09]set names utf8
+[2019-06-24 22:36:09]DESC cz_goods_type
+[2019-06-24 22:36:09]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 2,2
+[2019-06-24 22:36:09]select count(*) from cz_goods_type
+[2019-06-24 22:36:10]set names utf8
+[2019-06-24 22:36:10]DESC cz_goods_type
+[2019-06-24 22:36:10]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:10]select count(*) from cz_goods_type
+[2019-06-24 22:36:12]set names utf8
+[2019-06-24 22:36:12]DESC cz_goods_type
+[2019-06-24 22:36:12]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 2,2
+[2019-06-24 22:36:12]select count(*) from cz_goods_type
+[2019-06-24 22:36:13]set names utf8
+[2019-06-24 22:36:13]DESC cz_goods_type
+[2019-06-24 22:36:13]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:13]select count(*) from cz_goods_type
+[2019-06-24 22:36:21]set names utf8
+[2019-06-24 22:36:21]DESC cz_goods_type
+[2019-06-24 22:36:21]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:36:21]select count(*) from cz_goods_type
+[2019-06-24 22:51:18]set names utf8
+[2019-06-24 22:51:18]DESC cz_goods_type
+[2019-06-24 22:51:18]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:51:18]select count(*) from cz_goods_type
+[2019-06-24 22:51:32]set names utf8
+[2019-06-24 22:51:32]DESC cz_goods_type
+[2019-06-24 22:51:32]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:51:32]select count(*) from cz_goods_type
+[2019-06-24 22:51:36]set names utf8
+[2019-06-24 22:51:36]DESC cz_goods_type
+[2019-06-24 22:51:36]SELECT * FROM cz_goods_type
+[2019-06-24 22:51:45]set names utf8
+[2019-06-24 22:51:45]DESC cz_goods_type
+[2019-06-24 22:51:45]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:51:45]select count(*) from cz_goods_type
+[2019-06-24 22:52:04]set names utf8
+[2019-06-24 22:52:04]DESC cz_goods_type
+[2019-06-24 22:52:04]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-24 22:52:04]select count(*) from cz_goods_type
+[2019-06-24 23:30:22]set names utf8
+[2019-06-24 23:30:22]DESC cz_attribute
+[2019-06-24 23:30:22]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-24 23:30:23]set names utf8
+[2019-06-24 23:30:23]DESC cz_goods_type
+[2019-06-24 23:30:23]SELECT * FROM cz_goods_type
+[2019-06-25 18:11:05]set names utf8
+[2019-06-25 18:11:05]DESC cz_goods_type
+[2019-06-25 18:11:05]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:11:05]select count(*) from cz_goods_type
+[2019-06-25 18:11:07]set names utf8
+[2019-06-25 18:11:07]DESC cz_attribute
+[2019-06-25 18:11:07]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-25 18:17:44]set names utf8
+[2019-06-25 18:17:44]DESC cz_goods_type
+[2019-06-25 18:17:44]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:17:44]select count(*) from cz_goods_type
+[2019-06-25 18:17:46]set names utf8
+[2019-06-25 18:17:46]DESC cz_attribute
+[2019-06-25 18:17:46]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-25 18:18:01]set names utf8
+[2019-06-25 18:18:01]DESC cz_goods_type
+[2019-06-25 18:18:01]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:18:01]select count(*) from cz_goods_type
+[2019-06-25 18:18:47]set names utf8
+[2019-06-25 18:18:47]DESC cz_attribute
+[2019-06-25 18:18:47]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-25 18:18:48]set names utf8
+[2019-06-25 18:18:48]DESC cz_goods_type
+[2019-06-25 18:18:48]SELECT * FROM cz_goods_type
+[2019-06-25 18:23:10]set names utf8
+[2019-06-25 18:23:10]DESC cz_goods_type
+[2019-06-25 18:23:10]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:23:10]select count(*) from cz_goods_type
+[2019-06-25 18:23:11]set names utf8
+[2019-06-25 18:23:11]DESC cz_attribute
+[2019-06-25 18:23:11]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-25 18:23:12]set names utf8
+[2019-06-25 18:23:12]DESC cz_goods_type
+[2019-06-25 18:23:12]SELECT * FROM cz_goods_type
+[2019-06-25 18:23:33]set names utf8
+[2019-06-25 18:23:33]DESC cz_goods_type
+[2019-06-25 18:23:33]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:23:33]select count(*) from cz_goods_type
+[2019-06-25 18:23:35]set names utf8
+[2019-06-25 18:23:35]DESC cz_attribute
+[2019-06-25 18:23:35]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3
+[2019-06-25 18:39:49]set names utf8
+[2019-06-25 18:39:49]DESC cz_goods_type
+[2019-06-25 18:39:49]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:39:49]select count(*) from cz_goods_type
+[2019-06-25 18:39:50]set names utf8
+[2019-06-25 18:39:50]DESC cz_attribute
+[2019-06-25 18:39:50]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:39:50]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:39:50]set names utf8
+[2019-06-25 18:39:50]DESC cz_goods_type
+[2019-06-25 18:39:50]SELECT * FROM cz_goods_type
+[2019-06-25 18:41:44]set names utf8
+[2019-06-25 18:41:44]DESC cz_goods_type
+[2019-06-25 18:41:44]SELECT * FROM cz_goods_type
+[2019-06-25 18:41:56]set names utf8
+[2019-06-25 18:41:56]DESC cz_attribute
+[2019-06-25 18:41:56]INSERT INTO `cz_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`type_id`) VALUES ('分辨率','0','0','3')
+[2019-06-25 18:41:59]set names utf8
+[2019-06-25 18:41:59]DESC cz_attribute
+[2019-06-25 18:41:59]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:41:59]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:41:59]set names utf8
+[2019-06-25 18:41:59]DESC cz_goods_type
+[2019-06-25 18:41:59]SELECT * FROM cz_goods_type
+[2019-06-25 18:42:27]set names utf8
+[2019-06-25 18:42:27]DESC cz_goods_type
+[2019-06-25 18:42:27]SELECT * FROM cz_goods_type
+[2019-06-25 18:43:07]set names utf8
+[2019-06-25 18:43:07]DESC cz_attribute
+[2019-06-25 18:43:07]INSERT INTO `cz_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`type_id`) VALUES ('内存','0','0','2')
+[2019-06-25 18:43:10]set names utf8
+[2019-06-25 18:43:10]DESC cz_attribute
+[2019-06-25 18:43:10]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 2 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:43:10]select count(*) from cz_attribute where type_id = 2
+[2019-06-25 18:43:10]set names utf8
+[2019-06-25 18:43:10]DESC cz_goods_type
+[2019-06-25 18:43:10]SELECT * FROM cz_goods_type
+[2019-06-25 18:43:20]set names utf8
+[2019-06-25 18:43:20]DESC cz_goods_type
+[2019-06-25 18:43:20]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:43:20]select count(*) from cz_goods_type
+[2019-06-25 18:43:21]set names utf8
+[2019-06-25 18:43:21]DESC cz_attribute
+[2019-06-25 18:43:21]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:43:21]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:43:21]set names utf8
+[2019-06-25 18:43:21]DESC cz_goods_type
+[2019-06-25 18:43:21]SELECT * FROM cz_goods_type
+[2019-06-25 18:44:52]set names utf8
+[2019-06-25 18:44:52]DESC cz_goods_type
+[2019-06-25 18:44:52]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:44:52]select count(*) from cz_goods_type
+[2019-06-25 18:44:54]set names utf8
+[2019-06-25 18:44:54]DESC cz_attribute
+[2019-06-25 18:44:54]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:44:54]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:44:54]set names utf8
+[2019-06-25 18:44:54]DESC cz_goods_type
+[2019-06-25 18:44:54]SELECT * FROM cz_goods_type
+[2019-06-25 18:44:59]set names utf8
+[2019-06-25 18:44:59]DESC cz_goods_type
+[2019-06-25 18:44:59]SELECT * FROM cz_goods_type
+[2019-06-25 18:45:22]set names utf8
+[2019-06-25 18:45:22]DESC cz_attribute
+[2019-06-25 18:45:22]INSERT INTO `cz_attribute` (`attr_name`,`attr_type`,`attr_input_type`,`type_id`) VALUES ('运行内存','0','0','3')
+[2019-06-25 18:45:25]set names utf8
+[2019-06-25 18:45:25]DESC cz_attribute
+[2019-06-25 18:45:25]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:45:25]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:45:25]set names utf8
+[2019-06-25 18:45:25]DESC cz_goods_type
+[2019-06-25 18:45:25]SELECT * FROM cz_goods_type
+[2019-06-25 18:45:30]set names utf8
+[2019-06-25 18:45:30]DESC cz_goods_type
+[2019-06-25 18:45:30]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:45:30]select count(*) from cz_goods_type
+[2019-06-25 18:45:31]set names utf8
+[2019-06-25 18:45:31]DESC cz_attribute
+[2019-06-25 18:45:31]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:45:31]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:45:31]set names utf8
+[2019-06-25 18:45:31]DESC cz_goods_type
+[2019-06-25 18:45:31]SELECT * FROM cz_goods_type
+[2019-06-25 18:45:40]set names utf8
+[2019-06-25 18:45:40]DESC cz_attribute
+[2019-06-25 18:45:40]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-25 18:45:40]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:45:40]set names utf8
+[2019-06-25 18:45:40]DESC cz_goods_type
+[2019-06-25 18:45:40]SELECT * FROM cz_goods_type
+[2019-06-25 18:45:41]set names utf8
+[2019-06-25 18:45:41]DESC cz_attribute
+[2019-06-25 18:45:41]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:45:41]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:45:41]set names utf8
+[2019-06-25 18:45:41]DESC cz_goods_type
+[2019-06-25 18:45:41]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:12]set names utf8
+[2019-06-25 18:51:12]DESC cz_goods_type
+[2019-06-25 18:51:12]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:51:12]select count(*) from cz_goods_type
+[2019-06-25 18:51:14]set names utf8
+[2019-06-25 18:51:14]DESC cz_attribute
+[2019-06-25 18:51:14]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:14]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:51:14]set names utf8
+[2019-06-25 18:51:14]DESC cz_goods_type
+[2019-06-25 18:51:14]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:16]set names utf8
+[2019-06-25 18:51:16]DESC cz_attribute
+[2019-06-25 18:51:16]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:16]select count(*) from cz_attribute
+[2019-06-25 18:51:16]set names utf8
+[2019-06-25 18:51:16]DESC cz_goods_type
+[2019-06-25 18:51:16]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:18]set names utf8
+[2019-06-25 18:51:18]DESC cz_attribute
+[2019-06-25 18:51:18]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:18]select count(*) from cz_attribute
+[2019-06-25 18:51:18]set names utf8
+[2019-06-25 18:51:18]DESC cz_goods_type
+[2019-06-25 18:51:18]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:20]set names utf8
+[2019-06-25 18:51:20]DESC cz_attribute
+[2019-06-25 18:51:20]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:20]select count(*) from cz_attribute
+[2019-06-25 18:51:20]set names utf8
+[2019-06-25 18:51:20]DESC cz_goods_type
+[2019-06-25 18:51:20]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:21]set names utf8
+[2019-06-25 18:51:21]DESC cz_attribute
+[2019-06-25 18:51:21]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:21]select count(*) from cz_attribute
+[2019-06-25 18:51:21]set names utf8
+[2019-06-25 18:51:21]DESC cz_goods_type
+[2019-06-25 18:51:21]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:24]set names utf8
+[2019-06-25 18:51:24]DESC cz_attribute
+[2019-06-25 18:51:24]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:24]select count(*) from cz_attribute
+[2019-06-25 18:51:24]set names utf8
+[2019-06-25 18:51:24]DESC cz_goods_type
+[2019-06-25 18:51:24]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:28]set names utf8
+[2019-06-25 18:51:28]DESC cz_attribute
+[2019-06-25 18:51:28]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-25 18:51:28]select count(*) from cz_attribute
+[2019-06-25 18:51:28]set names utf8
+[2019-06-25 18:51:28]DESC cz_goods_type
+[2019-06-25 18:51:28]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:28]set names utf8
+[2019-06-25 18:51:28]DESC cz_attribute
+[2019-06-25 18:51:28]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 2,1
+[2019-06-25 18:51:28]select count(*) from cz_attribute
+[2019-06-25 18:51:28]set names utf8
+[2019-06-25 18:51:28]DESC cz_goods_type
+[2019-06-25 18:51:28]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:30]set names utf8
+[2019-06-25 18:51:30]DESC cz_attribute
+[2019-06-25 18:51:30]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-25 18:51:30]select count(*) from cz_attribute
+[2019-06-25 18:51:30]set names utf8
+[2019-06-25 18:51:30]DESC cz_goods_type
+[2019-06-25 18:51:30]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:30]set names utf8
+[2019-06-25 18:51:30]DESC cz_attribute
+[2019-06-25 18:51:30]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:30]select count(*) from cz_attribute
+[2019-06-25 18:51:30]set names utf8
+[2019-06-25 18:51:30]DESC cz_goods_type
+[2019-06-25 18:51:30]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:32]set names utf8
+[2019-06-25 18:51:32]DESC cz_attribute
+[2019-06-25 18:51:32]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-25 18:51:32]select count(*) from cz_attribute
+[2019-06-25 18:51:32]set names utf8
+[2019-06-25 18:51:32]DESC cz_goods_type
+[2019-06-25 18:51:32]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:32]set names utf8
+[2019-06-25 18:51:32]DESC cz_attribute
+[2019-06-25 18:51:32]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 2,1
+[2019-06-25 18:51:32]select count(*) from cz_attribute
+[2019-06-25 18:51:32]set names utf8
+[2019-06-25 18:51:32]DESC cz_goods_type
+[2019-06-25 18:51:32]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:36]set names utf8
+[2019-06-25 18:51:36]DESC cz_attribute
+[2019-06-25 18:51:36]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:36]select count(*) from cz_attribute
+[2019-06-25 18:51:36]set names utf8
+[2019-06-25 18:51:36]DESC cz_goods_type
+[2019-06-25 18:51:36]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:37]set names utf8
+[2019-06-25 18:51:37]DESC cz_attribute
+[2019-06-25 18:51:38]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:38]select count(*) from cz_attribute
+[2019-06-25 18:51:38]set names utf8
+[2019-06-25 18:51:38]DESC cz_goods_type
+[2019-06-25 18:51:38]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:39]set names utf8
+[2019-06-25 18:51:39]DESC cz_attribute
+[2019-06-25 18:51:39]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:39]select count(*) from cz_attribute
+[2019-06-25 18:51:39]set names utf8
+[2019-06-25 18:51:39]DESC cz_goods_type
+[2019-06-25 18:51:39]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:40]set names utf8
+[2019-06-25 18:51:40]DESC cz_attribute
+[2019-06-25 18:51:40]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:40]select count(*) from cz_attribute
+[2019-06-25 18:51:40]set names utf8
+[2019-06-25 18:51:40]DESC cz_goods_type
+[2019-06-25 18:51:40]SELECT * FROM cz_goods_type
+[2019-06-25 18:51:42]set names utf8
+[2019-06-25 18:51:42]DESC cz_attribute
+[2019-06-25 18:51:42]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:51:42]select count(*) from cz_attribute
+[2019-06-25 18:51:42]set names utf8
+[2019-06-25 18:51:42]DESC cz_goods_type
+[2019-06-25 18:51:42]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:06]set names utf8
+[2019-06-25 18:52:06]DESC cz_goods_type
+[2019-06-25 18:52:06]SELECT * FROM cz_goods_type
+                ORDER BY type_id DESC
+                LIMIT 0,2
+[2019-06-25 18:52:06]select count(*) from cz_goods_type
+[2019-06-25 18:52:08]set names utf8
+[2019-06-25 18:52:08]DESC cz_attribute
+[2019-06-25 18:52:08]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:52:08]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:52:08]set names utf8
+[2019-06-25 18:52:08]DESC cz_goods_type
+[2019-06-25 18:52:08]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:10]set names utf8
+[2019-06-25 18:52:10]DESC cz_attribute
+[2019-06-25 18:52:10]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 1 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:52:10]select count(*) from cz_attribute where type_id = 1
+[2019-06-25 18:52:10]set names utf8
+[2019-06-25 18:52:10]DESC cz_goods_type
+[2019-06-25 18:52:10]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:11]set names utf8
+[2019-06-25 18:52:11]DESC cz_attribute
+[2019-06-25 18:52:11]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 2 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:52:11]select count(*) from cz_attribute where type_id = 2
+[2019-06-25 18:52:11]set names utf8
+[2019-06-25 18:52:11]DESC cz_goods_type
+[2019-06-25 18:52:11]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:14]set names utf8
+[2019-06-25 18:52:14]DESC cz_attribute
+[2019-06-25 18:52:14]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:52:14]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:52:14]set names utf8
+[2019-06-25 18:52:14]DESC cz_goods_type
+[2019-06-25 18:52:14]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:22]set names utf8
+[2019-06-25 18:52:22]DESC cz_attribute
+[2019-06-25 18:52:22]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-25 18:52:22]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:52:22]set names utf8
+[2019-06-25 18:52:22]DESC cz_goods_type
+[2019-06-25 18:52:22]SELECT * FROM cz_goods_type
+[2019-06-25 18:52:24]set names utf8
+[2019-06-25 18:52:24]DESC cz_attribute
+[2019-06-25 18:52:24]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 0,1
+[2019-06-25 18:52:24]select count(*) from cz_attribute where type_id = 3
+[2019-06-25 18:52:24]set names utf8
+[2019-06-25 18:52:24]DESC cz_goods_type
+[2019-06-25 18:52:24]SELECT * FROM cz_goods_type
+[2019-06-25 18:54:23]set names utf8
+[2019-06-25 18:54:23]DESC cz_admin
+[2019-06-25 18:54:23]select * from cz_admin
+[2019-06-26 18:28:03]set names utf8
+[2019-06-26 18:28:03]DESC cz_attribute
+[2019-06-26 18:28:03]SELECT * FROM cz_attribute as a INNER JOIN cz_goods_type as b ON a.type_id = b.type_id WHERE a.type_id = 3 ORDER BY attr_id DESC LIMIT 1,1
+[2019-06-26 18:28:03]select count(*) from cz_attribute where type_id = 3
+[2019-06-26 18:28:03]set names utf8
+[2019-06-26 18:28:03]DESC cz_goods_type
+[2019-06-26 18:28:03]SELECT * FROM cz_goods_type
+[2019-06-26 18:52:54]set names utf8
+[2019-06-26 18:52:54]DESC cz_admin
+[2019-06-26 18:52:54]select * from cz_admin
+[2019-06-26 18:55:51]set names utf8
+[2019-06-26 18:55:51]DESC cz_category
+[2019-06-26 18:55:51]SELECT * FROM cz_category
+[2019-06-26 18:55:51]set names utf8
+[2019-06-26 18:55:51]DESC cz_brand
+[2019-06-26 18:55:51]SELECT * FROM cz_brand
+[2019-06-26 18:55:51]set names utf8
+[2019-06-26 18:55:51]DESC cz_goods_type
+[2019-06-26 18:55:51]SELECT * FROM cz_goods_type
+[2019-06-26 18:56:40]set names utf8
+[2019-06-26 18:56:40]DESC cz_category
+[2019-06-26 18:56:40]SELECT * FROM cz_category
+[2019-06-26 18:56:40]set names utf8
+[2019-06-26 18:56:40]DESC cz_brand
+[2019-06-26 18:56:40]SELECT * FROM cz_brand
+[2019-06-26 18:56:40]set names utf8
+[2019-06-26 18:56:40]DESC cz_goods_type
+[2019-06-26 18:56:40]SELECT * FROM cz_goods_type
+[2019-06-26 19:00:53]set names utf8
+[2019-06-26 19:00:53]DESC cz_category
+[2019-06-26 19:00:53]SELECT * FROM cz_category
+[2019-06-26 19:00:53]set names utf8
+[2019-06-26 19:00:53]DESC cz_brand
+[2019-06-26 19:00:53]SELECT * FROM cz_brand
+[2019-06-26 19:00:53]set names utf8
+[2019-06-26 19:00:53]DESC cz_goods_type
+[2019-06-26 19:00:53]SELECT * FROM cz_goods_type

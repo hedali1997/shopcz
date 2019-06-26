@@ -40,7 +40,7 @@ class Mysql{
 	public function query($sql){
 	    // 写日志功能
         if ($GLOBALS['config']['debug']) {
-            $str = "[" . data("Y-m-d H:i:s") . "]" .$sql . PHP_EOL;
+            $str = "[" . date("Y-m-d H:i:s") . "]" .$sql . PHP_EOL;
             file_put_contents('log.txt', $str, FILE_APPEND);
         }
 		$this->sql = $sql;

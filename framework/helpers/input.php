@@ -11,17 +11,38 @@ function deepspecialchars($data) {
         return $data;
     }
 //    普通写法
-/*    if (is_array($data)) {
-        // 数组 array('cat_id'=>1,'cat_name'=>'服装')
-        foreach ($data as $k => $v) {
-            $data[$k] = deepspecialchars($v);
-        }
-        return $data;
-    } else {
-        // 单个变量
-        return htmlspecialchars($data);
-    }*/
+    /*    if (is_array($data)) {
+            // 数组 array('cat_id'=>1,'cat_name'=>'服装')
+            foreach ($data as $k => $v) {
+                $data[$k] = deepspecialchars($v);
+            }
+            return $data;
+        } else {
+            // 单个变量
+            return htmlspecialchars($data);
+        }*/
 
 //    高级写法
     return is_array($data) ? array_map('deepspecialchars', $data) : htmlspecialchars($data);
+}
+
+// 批量预定义字符转义
+function deepslashes($data) {
+    if (empty($data)) {
+        return $data;
+    }
+//    普通写法
+    /*    if (is_array($data)) {
+            // 数组 array('cat_id'=>1,'cat_name'=>'服装')
+            foreach ($data as $k => $v) {
+                $data[$k] = deepspecialchars($v);
+            }
+            return $data;
+        } else {
+            // 单个变量
+            return htmlspecialchars($data);
+        }*/
+
+//    高级写法
+    return is_array($data) ? array_map('deepslashes', $data) : addslashes($data);
 }
