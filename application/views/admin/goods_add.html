@@ -31,7 +31,7 @@
 
     <!-- tab body -->
     <div id="tabbody-div">
-      <form enctype="multipart/form-data" action="" method="post" name="theForm"> 
+      <form enctype="multipart/form-data" action="index.php?p=admin&c=goods&a=insert" method="post" name="theForm">
         <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
 		 
 		 <!-- 通用信息 -->
@@ -186,7 +186,7 @@
 
         <!-- 商品属性 -->
          <table width="90%" id="properties-table" style="display: none;" align="center">
-			<tbody>
+			<tbody-goodsAttr>
 				<tr>
 					<td class="label">商品类型：</td>
 					<td>
@@ -613,7 +613,7 @@
 						</table>
 					</td>
 			 </tr>
-        </tbody>
+        </tbody-goodsAttr>
 	</table>
         
         <!-- 商品相册 -->
@@ -650,7 +650,7 @@
     </div>
 </div>
 
-<iframe src="" frameborder="1" width="400" height="300" id="ifr"></iframe>
+<iframe src="" frameborder="0" width="0" height="0" id="ifr"></iframe>
 <div id="footer">
 	版权所有 &copy; 2012-2013 传智播客 - PHP培训 - 
 </div>

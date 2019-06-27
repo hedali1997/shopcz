@@ -70,10 +70,10 @@ class AttributeController extends BaseController
         $type_id = $_GET['type_id'] + 0;
         // 调用模型完成具体的操作
         $attrModel = new AttributeModel('attribute');
-        $attrs = $type_id;
+        $attrs = $attrModel->getAttrsTable($type_id);
         echo <<<STR
         <script type="text/javascript">
-            window.parent.document.getElementById('tbody-goodsAttr').innerHTML = "$attrs";
+             window.parent.document.getElementById('tbody-goodsAttr').innerHTML = "$attrs";
         </script>
 STR;
 
