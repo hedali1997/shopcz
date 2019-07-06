@@ -905,3 +905,45 @@
 [2019-06-27 20:57:49]set names utf8
 [2019-06-27 20:57:49]DESC cz_admin
 [2019-06-27 20:57:49]select * from cz_admin
+[2019-06-29 10:16:23]set names utf8
+[2019-06-29 10:16:23]DESC cz_admin
+[2019-06-29 10:16:23]select * from cz_admin
+[2019-06-29 10:16:25]set names utf8
+[2019-06-29 10:16:25]DESC cz_admin
+[2019-06-29 10:16:25]select * from cz_admin
+[2019-06-29 10:16:27]set names utf8
+[2019-06-29 10:16:27]DESC cz_admin
+[2019-06-29 10:16:27]select * from cz_admin
+[2019-06-29 10:16:28]set names utf8
+[2019-06-29 10:16:28]DESC cz_admin
+[2019-06-29 10:16:28]select * from cz_admin
+[2019-06-29 10:16:31]set names utf8
+[2019-06-29 10:16:31]DESC cz_category
+[2019-06-29 10:16:31]SELECT * FROM cz_category
+[2019-06-29 10:16:54]set names utf8
+[2019-06-29 10:16:54]DESC cz_admin
+[2019-06-29 10:16:54]select * from cz_admin
+[2019-06-29 10:20:28]set names utf8
+[2019-06-29 10:20:28]DESC cz_admin
+[2019-06-29 10:20:28]select * from cz_admin
+[2019-06-29 10:20:30]set names utf8
+[2019-06-29 10:20:30]DESC cz_admin
+[2019-06-29 10:20:30]select * from cz_admin
+[2019-07-04 18:29:26]set names utf8
+[2019-07-04 18:29:26]DESC cz_category
+[2019-07-04 18:29:26]SELECT * FROM cz_category
+[2019-07-04 18:29:37]set names utf8
+[2019-07-04 18:29:37]DESC cz_admin
+[2019-07-04 18:29:37]select * from cz_admin
+[2019-07-06 14:36:55]set names utf8
+[2019-07-06 14:36:55]DESC cz_category
+[2019-07-06 14:36:55]SELECT * FROM cz_category
+[2019-07-06 14:46:47]set names utf8
+[2019-07-06 14:46:47]DESC cz_category
+[2019-07-06 14:46:47]SELECT * FROM cz_category
+[2019-07-06 15:19:08]set names utf8
+[2019-07-06 15:19:08]DESC cz_category
+[2019-07-06 15:19:08]SELECT * FROM cz_category
+[2019-07-06 18:04:17]set names utf8
+[2019-07-06 18:04:17]DESC cz_admin
+[2019-07-06 18:04:17]select * from cz_admin

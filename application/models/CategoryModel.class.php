@@ -44,4 +44,30 @@ class CategoryModel extends Model
         $res[] = $cat_id;
         return $res;
     }
+
+    /*
+     * 构造嵌套结构的多维数组
+     * @param [array] $arr [要处理的二维数组]
+     * @param integer $pid [从哪个节点开始]
+     * return [array]    [处理之后的二维数组]
+     * */
+    public function child($arr, $pid =0) {
+        $res = array();
+        foreach ($arr as $v) {
+            if ($v['parent_id'] == $pid) {
+                // 找到了，继续找
+                $childs = $this->child($arr, $v['cat_id']);
+                // 将找到的结果保存到当前数组的下标为child的元素中
+                $v['child'] = $childs;
+                $res[] = $v;
+            }
+        }
+        return $res;
+    }
+
+    public function frontCats() {
+        $sql = "SELECT * FROM {$this->table}";
+        $cats = $this->db->getAll($sql);
+        return $this->child($cats);
+    }
 }
